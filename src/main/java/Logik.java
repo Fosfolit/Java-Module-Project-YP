@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.io.PrintStream;
 import java.util.Scanner;
 
 public class Logik extends Rubl {
