@@ -1,9 +1,12 @@
 public class Rubl {
     public String rubel(final double coast) {
-        if (coast <= 1.5) {
-            return "рубль";
-        } else {
-            return "рубля";
+        double ost = coast % 10;
+        if ((5 <= ost) && (ost <= 9)) {
+            return "рублей";
         }
+        if ((1 <= ost) && (ost < 2)) {
+            return "рублю";
+        }
+        return "рубля";
     }
 }

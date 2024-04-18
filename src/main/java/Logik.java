@@ -79,7 +79,7 @@ public class Logik extends Rubl {
         }
         double n = all/count;
         Rubl out = new Rubl();
-        System.out.printf("Общая сумма %.2f %s\n",all ,out.rubel(n));
+        System.out.printf("Общая сумма %.2f %s\n",all ,out.rubel(all));
         System.out.printf("С каждого человека по %.2f %s\n",n ,out.rubel(n));
     }
 
